@@ -21,7 +21,7 @@ public class MaskedNumber {
         String maskedCharCDF3 = "XXXXXXXXXXXX";
         Boolean bIsCardNumber = (!(null == cardNumber) && (! "".equals(cardNumber)));
         String strippedNumber = null;
-        int length = 0;
+        int length = 1;
         
         if(bIsCardNumber) {
         	strippedNumber = stripNumberOfChars(cardNumber);
