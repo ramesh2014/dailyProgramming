@@ -1,4 +1,4 @@
-package daily.samples;
+package daily.samples.Generics;
 
 //To create an instance of generic class 
 //BaseType <Type> obj = new BaseType <Type>()
