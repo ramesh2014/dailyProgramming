@@ -1,3 +1,0 @@
-http://celatgcurivb022.us.oracle.com:8000/OAR
-JFROST
-welcome
