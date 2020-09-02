@@ -5,7 +5,7 @@ public class UnRepeatedNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int a[] = {1,3,2,5,4,3,4,2,5};
+		int a[] = {1,1,2,5,4,3,4,2,5};
 		
 		int i, res = 0;
 		

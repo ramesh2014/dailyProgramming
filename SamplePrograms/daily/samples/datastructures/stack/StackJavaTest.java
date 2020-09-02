@@ -1,5 +1,6 @@
 package daily.samples.datastructures.stack;
 
+import java.lang.reflect.Array;
 import java.util.Stack;
 
 /*
@@ -58,5 +59,18 @@ public class StackJavaTest {
         else
             System.out.println("Element is found at position " + pos);
         
+
+//        public static void main(String[] args) {
+//        	String[][] strarr = (String[][]) Array.newInstance(String.class, 3,3);  
+//        	  
+//            Array.set(strarr[0], 0, "javaTpoint");  
+//            Array.set(strarr[1], 1, ".Net");  
+//            Array.set(strarr[2], 2, "c#");  
+//
+//            System.out.println("Array[0][0] = " + Array.get(strarr[0], 0));  
+//            System.out.println("Array[1][1] = " + Array.get(strarr[1], 1));  
+//            System.out.println("Array[2][2] = " + Array.get(strarr[2], 2));  
+//        	}
+//		}
 	}
 }

@@ -29,7 +29,7 @@ public class RomanToDecimal {
 				
 				nextVal = romanNumeralsMap.get(String.valueOf(romanNumber.charAt(i+1)));
 				
-				if (currVal > nextVal) {
+				if (currVal >= nextVal) {
 					sum = sum + currVal;
 				}else {
 					sum = sum + nextVal - currVal;
@@ -49,8 +49,11 @@ public class RomanToDecimal {
 	
 	public static void main(String[] args) {
 		
-		String romanNumber = "VI";
-		System.out.println("Input: "+romanNumber);
-		System.out.println("Output: "+convert(romanNumber));
+		String[] romanNumbers = {"I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX"};
+		for(String romanNumber: romanNumbers) {
+			//String romanNumber = "VI";
+			System.out.println("Input: "+romanNumber);
+			System.out.println("Output: "+convert(romanNumber));
+		}
 	}
 }
