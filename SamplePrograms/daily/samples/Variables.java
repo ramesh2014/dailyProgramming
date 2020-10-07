@@ -33,9 +33,6 @@ public class Variables {
 	    Variables.modify2(a1);
 	    System.out.println(a1);
 	    
-//	    Variables vt = new Variables();
-//	    Test tt = vt.new Test();
-//	    
 	    Test t = new Variables().new Test();
 	    t.a = 30;
 	    Variables.modify3(t);
