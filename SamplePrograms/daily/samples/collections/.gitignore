@@ -1,2 +1,16 @@
 /ArrayListExample.class
 /HashMapExample.class
+/HashMapKeySetExample.class
+/HashMapValuesExample.class
+/HashMapEntrySetExample.class
+/HashMapPutIfAbsentExample.class
+/HashMapComputeExample.class
+/HashMapComputeIfPresentExample.class
+/MyBiFunction1.class
+/HashMapForEachExample.class
+/MyBiConsumer.class
+/HashMapReplaceAllExample.class
+/MyBiFunction.class
+/HashMapComputeIfAbsent.class
+/MyFunction.class
+/HashMapMergeExample.class

@@ -37,7 +37,7 @@ public class NumberReducer {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(OperationsCount(6));
+		System.out.println(OperationsCount(3));
 	}
 
 }
