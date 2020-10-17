@@ -53,7 +53,7 @@ public class LambdaExpression {
 		fi2.FunctionalMethodWithNoParamAndNoReturnType();
 		
 		//Example3
-		FunctionalInterface3 fi3 = (int singleParam) -> "Example3: Single int Param Value:"+singleParam+" return String";
+		FunctionalInterface3 fi3 = (int singleParam) -> "Example3: Single int Param Value:"+singleParam+" and returning String value";
 		System.out.println(fi3.FunctionalMethodWithSingleParam(345));
 		
 		//Example4
