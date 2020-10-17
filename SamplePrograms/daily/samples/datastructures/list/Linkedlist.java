@@ -1,4 +1,4 @@
-package daily.samples.datastructures.stack;
+package daily.samples.datastructures.list;
 
 //creation of node, insertion, deletion, find
 public class Linkedlist {
