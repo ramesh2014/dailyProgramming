@@ -1,4 +1,4 @@
-package daily.samples.collections;
+package daily.samples.collections.hashmap;
 
 import java.util.AbstractMap;
 import java.util.HashMap;
