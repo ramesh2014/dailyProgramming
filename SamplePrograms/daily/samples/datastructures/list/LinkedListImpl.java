@@ -87,13 +87,13 @@ public class LinkedListImpl{
 		
 		LinkedListImpl list = new LinkedListImpl();
 		
-//		list = list.add(list, 10);
-//		list = list.add(list, 20);
-//		list = list.add(list, 30);
-//		
+		list = add(list, 10);
+		list = add(list, 20);
+		list = add(list, 30);
+		
 		list.print(list);
 		
-		list = list.remove(list, 10);
+		list = remove(list, 10);
 		
 		list.print(list);
 		
