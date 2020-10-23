@@ -55,6 +55,7 @@ public class LinkedListNewImpl {
 		while(curr_node != null && curr_node.data != data) {
 			previous = curr_node;
 			curr_node = curr_node.next;
+			
 		}
 		
 		if(curr_node != null && curr_node.data == data) {
