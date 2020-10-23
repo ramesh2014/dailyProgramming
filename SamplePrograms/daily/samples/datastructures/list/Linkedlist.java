@@ -19,6 +19,7 @@ public class Linkedlist {
 		
 		Node new_node = new Node(data);
 		
+		
 		if(list.head == null) {
 			list.head = new_node;
 		}else {
