@@ -92,6 +92,7 @@ public class LinkedListThirdImpl {
 		li = remove(li, 140);
 		li = remove(li, 100);
 		li = remove(li, 130);
+		li = remove(li, 150); //not handled
 		
 		print(li);
 		
