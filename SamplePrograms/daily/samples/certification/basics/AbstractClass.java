@@ -1,8 +1,17 @@
 package daily.samples.certification.basics;
 
+abstract class Parent{
+	
+	protected void methodA() { 
+		
+	}
+	
+	abstract void methodB();
+}
+
 public class AbstractClass extends Parent {
 
-	public void methodA() {
+	public void methodA() { //marking public or protected is the solution if parent is marked with protected or public.
 		System.out.println("MethodA");
 	}
 	
@@ -20,9 +29,3 @@ public class AbstractClass extends Parent {
 
 }
 
-abstract class Parent{
-	
-	abstract protected void methodA();
-	
-	abstract void methodB();
-}
