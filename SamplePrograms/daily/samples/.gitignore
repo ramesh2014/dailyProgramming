@@ -7,6 +7,7 @@
 /RestExamples.class
 /MaskedNumber.class
 <<<<<<< HEAD
+<<<<<<< HEAD
 /NPE.class
 /ReplaceNewLine.class
 /Variables.class
@@ -57,3 +58,24 @@
 >>>>>>> stash
 /RegularExpressionExamples.class
 /AddNumByTarget.class
+=======
+/Base2.class
+/RoughTest.class
+/TestSer.class
+/SpecialSerial.class
+/Foo.class
+/TestClass2.class
+/TestCalss.class
+/TestClass.class
+/MeanMedianMode.class
+/StaticExample.class
+/StaticExample$1NotStaic.class
+/StaticExample$NotStaic.class
+/DemoClass.class
+/A.class
+/B.class
+/C.class
+/RomanToDecimal.class
+/RQ12A15.class
+/PrimeNumber.class
+>>>>>>> stash

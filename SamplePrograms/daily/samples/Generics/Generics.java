@@ -36,6 +36,6 @@ class Generics
 		Test <String> sObj = 
 						new Test<String>("String to print"); 
 
-		System.out.println(sObj.getObject()); 
-	} 
+	}
 }
+
