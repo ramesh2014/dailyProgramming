@@ -54,27 +54,26 @@ public class LInkedListFourthImpl {
 		
 		if(currNode == null) {
 			System.out.println("List is empty");
-			return li;
-		}
-		
-		if(currNode != null && currNode.data == data) {
-			System.out.println("Data found in head node and deleted: "+data);
-			li.head = currNode.next;
-			return li;
 		}else {
-			
-			while(currNode.next != null && currNode.data != data) {
-				previousNode = currNode;
-				currNode = currNode.next;
+			if(currNode != null && currNode.data == data) {
+				System.out.println("Data found in head node and deleted: "+data);
+				li.head = currNode.next;
+			}else {
+				
+				while(currNode.next != null && currNode.data != data) {
+					previousNode = currNode;
+					currNode = currNode.next;
+				}
+				
+				if( currNode !=null && currNode.data == data) {
+					previousNode.next = currNode.next;
+					System.out.println("Data found and deleted: "+data);
+				}else {
+					System.out.println("Data NOT found: "+data);
+				}
 			}
 		}
 		
-		if( currNode !=null && currNode.data == data) {
-			previousNode.next = currNode.next;
-			System.out.println("Data found and deleted: "+data);
-		}else {
-			System.out.println("Data NOT found: "+data);
-		}
 		return li;
 	}
 	
@@ -98,7 +97,6 @@ public class LInkedListFourthImpl {
 
 		print(li);
 		
-	
 	}
 
 }

@@ -1,11 +1,11 @@
 package daily.samples.certification.streams;
 
 import java.util.List;
+import java.util.Optional;
 
 public class StreamFilter {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		var cities = List.of(new City("Berlin", 3_520_000), new City("Hamburg", 1_790_000),
 				new City("Munich", 1_450_000), new City("Cologne", 1_060_000), new City("Frankfurt", 730_000)); //underscore in number is allowed.
@@ -16,7 +16,10 @@ public class StreamFilter {
 		//orElse -> Optional class 
 		//Question is about, what is the origin of orElse ?
 		
-		
+		System.out.println(cities.stream().filter(city -> city.getPopulation() < 1_000_000));
+		Optional<City> isCityPresent = cities.stream().filter(city -> city.getPopulation() < 1_000_000).findFirst();
+		System.out.println("Is City Present: "+isCityPresent.isPresent());
+		System.out.println(cities.stream().filter(city -> city.getPopulation() < 500_000).findFirst().orElse(new City("Not Found", 0)));
 		System.out.println(cities.stream().filter(city -> city.getPopulation() < 1_000_000).findFirst().orElse(new City("Not Found", 0)).getPopulation());
 	}
 
